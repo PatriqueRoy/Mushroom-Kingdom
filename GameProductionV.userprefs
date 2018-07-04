@@ -1,0 +1,28 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Assets\Scripts\MouseLook.cs">
+    <Files>
+      <File FileName="Assets\Assets\Scripts\MouseLook.cs" Line="48" Column="3" />
+      <File FileName="Assets\Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\PlayerAttacking.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\TowerBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\TowerPoisonBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\TowerSlowBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\TowerBuffBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\TowerBulletBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\EnemyBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\SkyboxManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\GateManage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\BaseManage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\MineManage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\EnemySpawning.cs" Line="91" Column="33" />
+      <File FileName="Assets\Assets\Scripts\SceneManage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\SoundsManage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\CombatMusic.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

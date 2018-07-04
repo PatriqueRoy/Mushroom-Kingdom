@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Combat
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  - {fileID: 245853372626593002}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 5bdd286f164f88340b8e34009450d67e
+    - 51435928e51e18143a0695d6e274ca67
+    - 7f9252831fb105e49830e4882d69fe94
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 5bdd286f164f88340b8e34009450d67e
+  m_Children:
+  - {fileID: 243921738076835110}
+  - {fileID: 243236798346051130}
+  m_Volume: c469d315ed14c524b87bc9cea81e539b
+  m_Pitch: 7fbb05b17061dcc4e809907e2d45b83c
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 5224a516a2a01534cabb4866c3d5488d
+  m_EffectName: Attenuation
+  m_MixLevel: 19a3ddf2c04e8924f997b1af91928040
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: outCombat
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: df636fe6f5638c8468970d807ab2548e
+  m_FloatValues:
+    48132047cbd390c418319ee776b03906: -78.5047
+  m_TransitionOverrides: {}
+--- !u!243 &243236798346051130
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: inCombat
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 51435928e51e18143a0695d6e274ca67
+  m_Children: []
+  m_Volume: 48132047cbd390c418319ee776b03906
+  m_Pitch: 78cb0bbd653dad54b9f0130b8355f361
+  m_Effects:
+  - {fileID: 244175860348207852}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &243921738076835110
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: outCombat
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 7f9252831fb105e49830e4882d69fe94
+  m_Children: []
+  m_Volume: 457e943921f01e54a8be90d29979f4c4
+  m_Pitch: d5a92e62c1f388a43ab8ac0cdd35bb66
+  m_Effects:
+  - {fileID: 244101306942722870}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &244101306942722870
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: a35e974fc210abe4f886f6e0ca222eac
+  m_EffectName: Attenuation
+  m_MixLevel: 7f5a68bcf9bc5f047b93082ba0a14efc
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244175860348207852
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: eef08ad711db9664fbd0c7ca90b39f39
+  m_EffectName: Attenuation
+  m_MixLevel: 516e893d8be5965428dc9e6e4bd7338d
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &245853372626593002
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: inCombat
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: a42c6b84fe28f5f498a8a9f9586ab201
+  m_FloatValues:
+    48132047cbd390c418319ee776b03906: -0.02577656
+    457e943921f01e54a8be90d29979f4c4: -77.31684
+  m_TransitionOverrides: {}
